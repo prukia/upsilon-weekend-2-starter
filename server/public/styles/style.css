@@ -15,9 +15,31 @@ h1 {
 }
 body{
   background-image: url("carousel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p{
   /*font-family: 'Lobster', cursive;*/
   font-family: 'Bree Serif', serif;
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  color: pink;
+  border: 1px solid pink;
+  display: inline-block;
+  font-weight: bold;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+#prev{
+  margin-left: 40%;
+}
+
+#next{
+  margin-right: 40%;
 }
