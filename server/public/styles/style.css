@@ -1,0 +1,23 @@
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  text-align: center;
+  color: pink;
+  text-decoration: underline;
+}
+
+.upsilionStudent {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: purple;
+
+}
+body{
+  background-image: url("carousel.jpg");
+}
+
+p{
+  /*font-family: 'Lobster', cursive;*/
+  font-family: 'Bree Serif', serif;
+}
