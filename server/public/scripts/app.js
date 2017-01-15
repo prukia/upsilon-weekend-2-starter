@@ -15,9 +15,6 @@ $(document).ready(function(){
 
   uStudent(currentStudent);
 
-  // $('.next').click(function(){
-  //    $('#slideshow img:first').fadeOut(1000).next().fadeIn(1000).end().appendTo('#slideshow');
-  //  })
 });
 
 function uStudent(currentStudent){
@@ -41,6 +38,7 @@ function prev(){
     url: "/data",
     success: function(data){
       console.log('GET / data turns' , data);
+      //using animate instead of fadeIn/fadeOut because it shows appended data
       $('#ajax-data').animate({opacity:0},500);
       setTimeout (function(){
       $('#ajax-data').empty();
